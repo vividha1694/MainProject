@@ -10,11 +10,17 @@
 
 .nav ul {
   display: flex;
-  gap: 24px;
+  align-items: end;
+  gap: 30px;
   color: #120101;
   font-size: 18px;
   list-style-type: none;
   font-weight: 500;
+  cursor:pointer;
+}
+
+.nav li:hover{
+  color:blue;
 }
 .nav img{
   height:40px;
