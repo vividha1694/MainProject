@@ -1,0 +1,44 @@
+
+  
+
+  .head{
+    display:flex;
+    justify-content: space-around;
+  }
+  .link ul {
+    display: flex;
+    gap: 30px;
+    color: #120101;
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: 450;
+    align-items: end;
+    cursor: pointer;
+  }
+  .link li:hover{
+    color:blue;
+  }
+  
+  .button button{
+    
+    padding:8px 8px 8px 8px;
+    border:none;
+    font-size: 18px;
+    gap:30px;
+  }
+
+  
+  .btn2{
+    background-color: black;
+    color:white;
+    font-weight: 500;
+  }
+  .btn2:hover{
+    background-color: blue;
+    
+  }
+.btn:hover{
+ color:blue;
+}
+
+  

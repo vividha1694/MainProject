@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React from "react";
 import { LuSearch } from "react-icons/lu";
 import  "./Navigation.css";
@@ -8,12 +6,13 @@ const App = () => {
     <div className="container">
       <nav className="nav">
         <div className="nav">
-          <img
-            src="https://janhavipanwar.com/wp-content/uploads/2023/12/cropped-Logo-Janhavi-Panwar.png"
-            alt="logo"
-          />
+         
 
           <ul>
+            <li> <img
+            src="https://janhavipanwar.com/wp-content/uploads/2023/12/cropped-Logo-Janhavi-Panwar.png"
+            alt="logo"
+          /></li>
             <li>Home</li>
             <li>About</li>
             <li>Courses</li>
@@ -24,8 +23,9 @@ const App = () => {
 
         <div>
           <form>
-            <div className="form"><input type="text" name="Search" placeholder="Search"  ></input>
-            <LuSearch className="logo"/>
+            <div className="form">
+            <input type="text" name="Search" placeholder="Search"  ></input>
+            <button className="input_btn"><LuSearch className="logo"/></button>
             </div>
             
           </form>
@@ -36,4 +36,3 @@ const App = () => {
 };
 
 export default App;
->>>>>>> 2978a4fc5ddda60103793ad63fdd87eb29be1113
