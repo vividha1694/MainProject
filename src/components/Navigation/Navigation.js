@@ -1,18 +1,18 @@
 import React from "react";
 import { LuSearch } from "react-icons/lu";
-import  "./Navigation.css";
-const App = () => {
+import styles from "./Navigation.module.css";
+const Navigation = () => {
   return (
-    <div className="container">
-      <nav className="nav">
-        <div className="nav">
-         
-
+    <div className={styles.container}>
+      <nav className={styles.nav}>
+        <div className={styles.nav}>
           <ul>
-            <li> <img
-            src="https://janhavipanwar.com/wp-content/uploads/2023/12/cropped-Logo-Janhavi-Panwar.png"
-            alt="logo"
-          /></li>
+            <li>
+              <img
+                src="https://janhavipanwar.com/wp-content/uploads/2023/12/cropped-Logo-Janhavi-Panwar.png"
+                alt="logo"
+              />
+            </li>
             <li>Home</li>
             <li>About</li>
             <li>Courses</li>
@@ -23,11 +23,10 @@ const App = () => {
 
         <div>
           <form>
-            <div className="form">
-            <input type="text" name="Search" placeholder="Search"  ></input>
-            <button className="input_btn"><LuSearch className="logo"/></button>
+            <div className={styles.form}>
+              <input className={styles.input} type="text" name="Search" placeholder="Search"></input>
+              <button className={styles.btn}><LuSearch className={styles.logo} /></button>
             </div>
-            
           </form>
         </div>
       </nav>
@@ -35,4 +34,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Navigation;
