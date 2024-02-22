@@ -10,12 +10,12 @@ const App = () => {
 
     <div>
       <Header/>
-<<<<<<< HEAD
+      <Background_img/>
       <Home/>
       <Footer/>
-=======
-      <Background_img/>
->>>>>>> 3bdbb0c31865b96755fd28a86c923a715f0bbddf
+
+     
+
       
     </div>
 
