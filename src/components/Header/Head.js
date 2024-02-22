@@ -2,13 +2,13 @@ import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 import { RiContactsLine } from "react-icons/ri";
-import "./Head.css";
+import styles from "./Head.module.css";
 
 const Head = () => {
   return (
     <>
-      <div className="head">
-        <div className="link">
+      <div className={styles.head}>
+        <div className={styles.link}>
           <ul>
             
             <li > <MdOutlineEmail />panwarjanhavi@gmail.com</li>
@@ -17,10 +17,10 @@ const Head = () => {
           </ul>
         </div>
 
-        <div className="button">
+        <div className={styles.button}>
           <RiContactsLine />
-          <button className="btn">Login</button>
-          <button className="btn2">Buy Courses</button>
+          <button className={styles.btn}>Login</button>
+          <button className={styles.btn2}>Buy Courses</button>
         </div>
       </div>
     </>

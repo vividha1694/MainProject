@@ -39,6 +39,10 @@
   }
 .btn:hover{
  color:blue;
+ width:20px;
 }
 
   
+.btn{
+  background-color: white;
+}
