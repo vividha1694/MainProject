@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Background_img from './components/Home/Background_img';
 
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
 
     <div>
       <Header/>
-      <Footer/>
+      <Background_img/>
       
     </div>
 
