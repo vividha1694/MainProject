@@ -1,0 +1,35 @@
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: -35px; */
+    
+}
+.div {
+    color:#49535B;
+    margin-top: 160px;
+}
+.div a{
+    text-decoration: none;
+    color:#49535B;
+    height: 44px;
+    line-height: 40px;
+    border: 3px solid rgba(3, 18, 32, 0.1);
+    /* color: #0C140F; */
+    background-color: transparent;
+    padding:18px 10px;
+}
+.head_three{
+    color: #ff6900;
+}
+.head_two{
+    font-size: 46px;
+}
+.para{
+    margin-top: 160px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    color:#49535B;
+
+}

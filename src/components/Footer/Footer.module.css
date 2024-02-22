@@ -18,13 +18,13 @@
     width: 35%;
     padding: 20px;
 }
-img{
+.logo img{
     width:150px;
     height:31px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-ul{
+.list ul{
     margin: 0;
     padding: 0;
 }
@@ -41,15 +41,15 @@ ul{
     text-decoration: none;
     color:#49535B;
 }
-h3,h4{
+.headings h3,h4{
     font-size: 20px;
 }
-p{
+.para p{
     font-size: 18px;
     margin: 0 0 15px;
     
 }
-input{
+.input input{
     width: 170px;
     height: 60px;
     padding: 0 20px;
@@ -59,7 +59,7 @@ input{
     color: #ffffff;
     background-color: white;
 }
-button{
+.button button{
     background-color: #007aff;
     border: none;
     width: 80px;
