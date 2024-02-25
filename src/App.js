@@ -16,10 +16,8 @@ const App = () => {
       <Header/>
       <Background_img/>
       <CategoryCardDetails/>
-      <CourseCardDetails/>
-      <Footer/>
-      <Home/>
       <CounterUpPage/>
+      <CourseCardDetails/>
       <Course_find/>
       <Footer/>
     </div>
