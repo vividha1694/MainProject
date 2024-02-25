@@ -1,0 +1,31 @@
+.container{
+    
+    display:flex;
+    max-width: 100%;
+    align-content: center;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    background-color: #edf3f2;
+    padding:10px;
+    
+ }
+ 
+ .counter{
+     color:#007A70;
+     font-size: 40px;
+    
+     
+ }
+ 
+ .container p{
+     color:#4B535A;
+     max-width: 60%;
+     font-size: 16px;
+     font-weight: 600;
+ }
+ 
+ .border{
+     padding:15px 30px 45px 35px;
+     
+     
+ }
