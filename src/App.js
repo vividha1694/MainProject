@@ -3,6 +3,9 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer';
 import Background_img from './components/Home/Background_img';
+import CategoryCardDetails from './components/Home/CategoryCardDetails';
+import CourseCardDetails from './components/Home/CourseCardDetails';
+
 
 
 const App = () => {
@@ -11,12 +14,9 @@ const App = () => {
     <div>
       <Header/>
       <Background_img/>
-      <Home/>
+      <CategoryCardDetails/>
+      <CourseCardDetails/>
       <Footer/>
-
-     
-
-      
     </div>
 
   )
