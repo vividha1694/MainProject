@@ -1,0 +1,22 @@
+.meta {
+    margin-left: 15px;
+    margin-top:20px
+  }
+  .icon{
+      color:#3D6CE7;
+      font-size: 16px;
+      margin-left: 20px;
+      
+  }
+  .meta a{
+      font-weight: 300;
+  }
+  .meta h4{
+      display: inline-block;
+      margin-left: 4px;
+      
+      color:#6A727F;
+  }
+  .meta h4:hover{
+      color: #085ac8;
+  }

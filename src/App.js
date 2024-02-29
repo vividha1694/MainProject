@@ -9,6 +9,7 @@ import CounterUpPage from './components/Home/Counter/CounterUpPage';
 import Course_find from './components/Header/Course_find/Course_find';
 import Playstore from './components/Home/PlayStore/Playstore';
 import Contact from './components/Contact/Contact';
+import Blog from './components/Blog/Blog';
 
 
 const App = () => {
@@ -25,7 +26,8 @@ const App = () => {
       <Playstore/>
       <Footer/> */}
 
-      <Contact/>
+      {/* <Contact/> */}
+      <Blog/>
     </div>
 
   )
