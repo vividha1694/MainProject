@@ -1,0 +1,100 @@
+.container{
+    position:relative;
+    background-color: #007A70;
+    max-width: 1200px;
+    height:250px;
+    border-radius: 20px;
+  margin-left: 15%;
+  }
+  
+  .img1{
+    position: absolute;
+    top:0;
+    left:45px
+    
+  }
+  
+  .img2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: luminosity;
+  }
+  
+  .heading{
+    position:absolute;
+    top:8px;
+    left: 68px;
+    font-size: 34px;
+      font-weight: 800;
+      color:white;
+      max-width: 40%;
+  }
+  
+  .play{
+    
+    position:absolute;
+    right:20%;
+    top:37%;
+    border:2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+   
+  
+    
+  }
+  
+  
+  
+  .logo{
+    margin-left: -15px;
+    margin-top: -16px;
+  }
+  .play h4{
+    position: absolute;
+    top:-17px;
+    left:41px
+  }
+  .play a{
+    display: block;
+    width:138px;
+    height: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 20px;
+    color: #FFFF;
+  }
+  
+  .play a:hover{
+    background-color:white;
+    color:black;
+    border:2px solid white;
+    border-radius: 8px;
+  }
+  
+  .play2{
+    position:absolute;
+    right:4%;
+    top:37%;
+    background-color: white;
+    border-radius: 8px;
+   
+  }
+  .play2 a{
+    display: block;
+    width:127px;
+    height: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 20px;
+    color:black;
+  }
+  
+  .play2 h4{
+    position: absolute;
+    top:-17px;
+    left:41px
+  }
+  
+  

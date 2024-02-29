@@ -1,0 +1,7 @@
+.flex{
+    display:flex;
+    gap:100px;
+    background-color: #F5F6F8;
+    justify-content: center;
+    margin-top:50px
+}
