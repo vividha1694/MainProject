@@ -1,0 +1,74 @@
+.content{
+    width: 24.333%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.context{
+    height:30%;
+    padding: 10px;
+    height:13%
+}
+.contactinfo{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: -2px
+}
+.icon{
+    margin-top:33px;
+    margin-right:9px;
+}
+.contactinfo h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.contactinfo a{
+    
+        box-shadow: none;
+        text-decoration: none;
+    
+}
+
+
+.shadow{
+    
+    padding: 99px 40px;
+    padding-right: 70px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 30px 50px 0px rgba(1, 11, 60, 0.1);
+    -moz-box-shadow: 0px 30px 50px 0px rgba(1, 11, 60, 0.1);
+    -ms-box-shadow: 0px 30px 50px 0px rgba(1, 11, 60, 0.1);
+    -o-box-shadow: 0px 30px 50px 0px rgba(1, 11, 60, 0.1);
+     box-shadow: 0px 30px 50px 0px rgba(1, 11, 60, 0.1); 
+    position: relative; 
+    z-index: 1;
+
+}
+
+.list  li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #031220;
+    background: #F5F6F8;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+.list li{
+    display: inline-block;
+    margin-right: 10px 
+}
+
+
