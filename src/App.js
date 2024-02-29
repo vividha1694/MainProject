@@ -18,7 +18,7 @@ const App = () => {
   return (
 
     <div>
-      {/* <Header/>
+      {/* <Header/>*/}
       <Background_img/>
       <CategoryCardDetails/>
       {/* <CounterUpPage/> */}
@@ -28,7 +28,7 @@ const App = () => {
       <Course_find/>
 
       <Playstore/>
-      <Footer/> */}
+      <Footer/>
 
       {/* <Contact/> */}
       <Blog/>
